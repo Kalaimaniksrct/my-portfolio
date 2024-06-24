@@ -1,0 +1,71 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mrs.I.Kalaimani</h1>
+	<h3>Mobile: (+91)9688224088</h3>
+	<h4>Email: kalaimani@ksrct.ac.in</h4>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+	<img src="profile.jpeg"></img>
+        <p>I'm Kalaimani I, Assistant Professor from KS Rangasamy college of Technology, Tiruchengode, Namakkal District, Tamilnadu, India.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python Programming</li>
+            <li>C Programming</li>
+            <li>Java Programming</li>
+            <li>Team spirit</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>My first project</h3>
+            <p>Displays various headings with paragraph tags</p>
+        </div>
+        <div class="project">
+            <h3>My second project</h3>
+            <p>Displays various lists (Ordered and unordered), Various inputs and with hyperlinks</p>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <blockquote>
+            <p>Quote from a recommendation...</p>
+            <cite>Dr.P.Vijayalakshmi</cite>
+        </blockquote>
+    </section>
+	<form id="addRecommendationForm">
+        <textarea id="newRecommendationText" placeholder="Enter new recommendation text..." rows="4" cols="50"></textarea>	<br>
+        <input type="text" id="recommendationAuthor" placeholder="Author's Name"><br>
+        <button type="button" onclick="addRecommendation()">Add Recommendation</button>
+    </form>
+
+    <footer>
+        <img src="home-icon.png" alt="Home Icon" width="50" height="50">
+	<p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
